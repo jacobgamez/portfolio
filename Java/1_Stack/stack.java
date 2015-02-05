@@ -72,3 +72,4 @@ class stack {
 	while (!isEmpty())
 	    pop(leftover);
     }
+}
