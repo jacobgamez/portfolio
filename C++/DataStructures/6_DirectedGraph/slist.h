@@ -4,6 +4,9 @@
  * Compiler: g++
  *******************************/
 
+#ifndef SLIST_H
+#define SLIST_H
+
 #include "llist.h"
 
 class slist : public llist
@@ -24,3 +27,5 @@ public:
 	slist& operator=(const slist& otherOne);
 	
 };
+
+#endif //SLIST_H

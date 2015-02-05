@@ -6,6 +6,9 @@
  * This file contains the implementation of the functions described in slist.h
 **********************************************/
 
+#ifndef SLIST_CPP
+#define SLIST_CPP
+
 #include <iostream>
 using namespace std;
 
@@ -95,3 +98,5 @@ slist& slist::operator=(const slist& l)
 	
 	return *this;
 }
+
+#endif //SLIST_CPP

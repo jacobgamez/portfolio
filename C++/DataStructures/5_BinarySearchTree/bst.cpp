@@ -6,6 +6,9 @@
  * Compiler: g++
  */
 
+#ifndef BST_CPP
+#define BST_CPP
+
 #include <iostream>
 using namespace std;
 
@@ -326,3 +329,5 @@ elem_t BST::findMax(Vertex *V)
         return X;             // return the MAX element
 
 }// end of FindMax
+
+#endif //BST_CPP

@@ -5,6 +5,9 @@ Jacob Gamez
 This program demonstrates a basic binary search
  */
 
+#ifndef BS_CPP
+#define BS_CPP
+
 #include <iostream>
 using namespace std;
 int binarySearch(int[], int, int, int);
@@ -52,3 +55,5 @@ int binarySearch(int array[], int query, int max, int min)
      }
   return mid;
 }
+
+#endif //BS_CPP

@@ -7,6 +7,9 @@
 //attributed to the llist class
 //=====================================================
 
+#ifndef LLIST_CPP
+#define LLIST_CPP
+
 #include <iostream>
 using namespace std;
 
@@ -266,3 +269,4 @@ void llist::addbeforeIth(int I, el_t newNum)
 	}
 }
 
+#endif //LLIST_CPP

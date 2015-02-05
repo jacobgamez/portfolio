@@ -1,9 +1,11 @@
-
 //****************************************************************************
 //  Header File  llist.h
 //  Jacob Gamez
 //  Linked List Header File
 //****************************************************************************
+
+#ifndef LLIST_H
+#define LLIST_H
 
 typedef int el_t ;
 
@@ -74,3 +76,5 @@ class llist
   void addbeforeIth(int I, el_t newNum);
     
 };
+
+#endif LLIST_H

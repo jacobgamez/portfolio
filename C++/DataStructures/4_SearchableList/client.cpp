@@ -5,6 +5,9 @@
  * This client file will generate the test cases
  *****************************************************************/
 
+#ifndef CLIENT_CPP
+#define CLIENT_CPP
+
  #include <iostream>
  using namespace std;
 
@@ -81,5 +84,4 @@ void copyTest(slist L)
 }
 
 
-	
-	
+#endif //CLIENT_CPP

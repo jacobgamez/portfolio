@@ -1,7 +1,8 @@
-
 // CS311 This client tests the BST class
 //Jacob Gamez
 
+#ifndef CLIENT_CPP
+#define CLIENT_CPP
 
 #include <iostream>
 using namespace std;
@@ -84,3 +85,4 @@ int main()
 }
 
 
+#endif //CLIENT_CPP

@@ -5,6 +5,9 @@
 //File type: stack implementation file stack.cpp
 //================================================================
 
+#ifndef STACK_CPP
+#define STACK_CPP
+
 #include "stack.h"
 
 //Constructor has nothing to do since vector creation
@@ -105,3 +108,5 @@ void stack::clearIt()
 		pop(leftover);
 	}
 }
+
+#endif //STACK_CPP

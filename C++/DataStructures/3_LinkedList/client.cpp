@@ -5,6 +5,9 @@
  * This file is the client file that creates the test cases
 ****************************************/
 
+#ifndef CLIENT_CPP
+#define CLIENT_CPP
+
 #include <iostream>
 using namespace std;
 
@@ -217,3 +220,5 @@ int main()
 	
 return 0;
 }
+
+#endif //CLIENT_CPP

@@ -1,9 +1,11 @@
 // =======================================================
-// HW1P2
 // Your name: Jacob Gamez
 // Compiler:  g++ 
-// File type: headher file stack.h
+// File type: header file stack.h
 //=======================================================
+
+#ifndef STACK_H
+#define STACK_H
 
 #include <iostream>
 #include <vector>
@@ -59,5 +61,4 @@ class stack
         
   };  
 
-// Note: semicolon is needed at the end of the header file
-
+#endif //STACK_H

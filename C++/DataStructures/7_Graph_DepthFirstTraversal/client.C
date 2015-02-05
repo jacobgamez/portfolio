@@ -4,6 +4,9 @@
 //File type: C++ client program
 //Purpose: Contains main driver of program to implement HW7P2 client
 
+#ifndef CLIENT_C
+#define CLIENT_C
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -89,7 +92,7 @@ int main()
 
 }
 
-
+#endif //CLIENT_C
 
 
 

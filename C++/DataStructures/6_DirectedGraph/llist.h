@@ -6,6 +6,9 @@
 //**Jacob Gamez**//
 //****************************************************************************
 
+#ifndef LLIST_H
+#define LLIST_H
+
 typedef int el_t ;
 
 	   // list node is defined here as a struct Node
@@ -75,3 +78,5 @@ class llist
   void addbeforeIth(int I, el_t newNum);
     
 };
+
+#endif //LLIST_H

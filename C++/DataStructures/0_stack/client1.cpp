@@ -1,11 +1,12 @@
 // =========================================================
-
 //Stack Client
 //Your name: Jacob Gamez
 //Complier:  g++
 //File type: cpp client file
-
 //================================================================
+
+#ifndef CLIENT_C
+#define CLIENT_C
 
 #include <iostream>
 #include <string>
@@ -95,3 +96,5 @@ int main()
   
   return 0;  
 }
+
+#endif //CLIENT_C

@@ -8,6 +8,10 @@
  * containing 3 integers in ascending order each
  * and produce a sorted list in a third vector.
 ****************************************/
+
+#ifndef COMBINE_CPP
+#define COMBINE_CPP
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -100,3 +104,5 @@ void combine(vector<int> A, vector<int> B, vector<int>& R)
 		ib++;
 	}
 }
+
+#endif //COMBINE_CPP
