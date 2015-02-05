@@ -1,0 +1,108 @@
+Script started on Tue 18 Nov 2014 11:58:38 AM PST
+0;gamez003@empress:~/cs/cs311/hw/hw6[gamez003@empress hw6]$ g++ client.C dgraph.C llist.cpp slist.cpp -o hw6
+0;gamez003@empress:~/cs/cs311/hw/hw6[gamez003@empress hw6]$ ./hw6
+Vertex: A
+Out Degree: 2
+Adjacent List: [ 66 70 ]
+
+Vertex: B
+Out Degree: 2
+Adjacent List: [ 67 71 ]
+
+Vertex: C
+Out Degree: 1
+Adjacent List: [ 72 ]
+
+Vertex: E
+Out Degree: 0
+Adjacent List: [empty]
+
+Vertex: F
+Out Degree: 2
+Adjacent List: [ 73 69 ]
+
+Vertex: G
+Out Degree: 0
+Adjacent List: [empty]
+
+Vertex: H
+Out Degree: 2
+Adjacent List: [ 71 73 ]
+
+Vertex: I
+Out Degree: 3
+Adjacent List: [ 65 71 69 ]
+
+Enter node letter to find out degree. (Enter Q to stop):
+A
+Out degree: 2
+Enter node letter to find outdegree. (Enter Q to stop): B
+Out degree: 2
+Enter node letter to find outdegree. (Enter Q to stop): C
+Out degree: 1
+Enter node letter to find outdegree. (Enter Q to stop): D
+Out degree: 8
+Enter node letter to find outdegree. (Enter Q to stop): E
+No Vertex found
+Enter node letter to find outdegree. (Enter Q to stop): F
+Out degree: 2
+Enter node letter to find outdegree. (Enter Q to stop): G
+No Vertex found
+Enter node letter to find outdegree. (Enter Q to stop): H
+Out degree: 2
+Enter node letter to find outdegree. (Enter Q to stop): I
+Out degree: 3
+Enter node letter to find outdegree. (Enter Q to stop): q
+Enter vertex letter to find adjacency list. (Enter Q to stop):
+A
+Calling the llist destructor.
+Adjacent list: [ 66 70 ]
+Enter vertex letter to find adjacency list. (Enter Q to stop): B
+Calling the llist destructor.
+Adjacent list: [ 67 71 ]
+Enter vertex letter to find adjacency list. (Enter Q to stop): C
+Calling the llist destructor.
+Adjacent list: [ 72 ]
+Enter vertex letter to find adjacency list. (Enter Q to stop): D
+Calling the llist destructor.
+Adjacent list: [empty]
+Enter vertex letter to find adjacency list. (Enter Q to stop): E
+Calling the llist destructor.
+Adjacent list: [empty]
+Enter vertex letter to find adjacency list. (Enter Q to stop): F
+Calling the llist destructor.
+Adjacent list: [ 73 69 ]
+Enter vertex letter to find adjacency list. (Enter Q to stop): G
+Calling the llist destructor.
+Adjacent list: [empty]
+Enter vertex letter to find adjacency list. (Enter Q to stop): H
+Calling the llist destructor.
+Adjacent list: [ 71 73 ]
+Enter vertex letter to find adjacency list. (Enter Q to stop): I
+Calling the llist destructor.
+Adjacent list: [ 65 71 69 ]
+Enter vertex letter to find adjacency list. (Enter Q to stop): Q
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+Calling the llist destructor.
+0;gamez003@empress:~/cs/cs311/hw/hw6[gamez003@empress hw6]$ exit
+
+Script done on Tue 18 Nov 2014 11:59:52 AM PST

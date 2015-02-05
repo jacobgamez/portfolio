@@ -1,0 +1,23 @@
+Script started on Mon 22 Sep 2014 04:28:19 PM PDT
+bash-3.2$ g++ binarysearch.cpp -o binarysearch
+bash-3.2$ ./binarysearch
+Please input a number to search for: 1
+The number was found in position 1
+bash-3.2$ ./binarysearch
+Please input a number to search for: 19
+The number was found in position 10
+bash-3.2$ ./binarysearch
+Please input a number to search for: 5
+The number was found in position 3
+bash-3.2$ ./binarysearch
+Please input a number to search for: 17
+The number was found in position 9
+bash-3.2$ ./binarysearch
+Please input a number to search for: 21
+ERROR: NOT FOUND
+bash-3.2$ ./binarysearch
+Please input a number to search for: 0
+ERROR: NOT FOUND
+bash-3.2$ exit
+
+Script done on Mon 22 Sep 2014 04:29:46 PM PDT

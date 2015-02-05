@@ -1,0 +1,46 @@
+Script started on Thu 09 Oct 2014 12:49:25 PM PDT
+gamez003@empress:~/cs/cs311/hw/hw3p1[gamez003@empress hw3p1]$ g++ -c llist.cpp
+gamez003@empress:~/cs/cs311/hw/hw3p1[gamez003@empress hw3p1]$ g++ llist.o client.cpp -o h3p1
+gamez003@empress:~/cs/cs311/hw/hw3p1[gamez003@empress hw3p1]$ ./h3p1
+Which test case would you like to try? 1
+List is Empty
+[empty]
+[ 1 2 3 ]
+1
+2
+[ 3 ]
+List is Not Empty
+3
+List is Empty
+Calling the llist destructor.
+gamez003@empress:~/cs/cs311/hw/hw3p1[gamez003@empress hw3p1]$ ./h3p1
+Which test case would you like to try? 2
+[ 5 6 8 9 ]
+error - (Out of Range)
+error - (Out of Range)
+[ 4 5 6 7 8 9 10 ]
+4
+10
+7
+error - (Out of Range)
+error - (Out of Range)
+[ 5 6 8 9 ]
+9
+8
+6
+5
+[empty]
+Calling the llist destructor.
+gamez003@empress:~/cs/cs311/hw/hw3p1[gamez003@empress hw3p1]$ ./h3p1
+Which test case would you like to try? 3
+error - (Out of Range)
+error - (Underflow)
+Calling the llist destructor.
+gamez003@empress:~/cs/cs311/hw/hw3p1[gamez003@empress hw3p1]$ ./h3p1
+Which test case would you like to try? 4
+error - (Out of Range)
+error - (Underflow)
+Calling the llist destructor.
+gamez003@empress:~/cs/cs311/hw/hw3p1[gamez003@empress hw3p1]$ exit
+
+Script done on Thu 09 Oct 2014 12:50:21 PM PDT

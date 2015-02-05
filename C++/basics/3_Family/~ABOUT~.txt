@@ -1,0 +1,3 @@
+This program manages a linked list as though it were a family.
+
+This program demonstrates the use of many classes together in a linked list.

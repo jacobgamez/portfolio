@@ -1,0 +1,29 @@
+Script started on Mon 20 Oct 2014 10:32:49 PM PDT
+0;gamez003@empress:~/cs/cs311/hw/hw3p3[gamez003@empress hw3p3]$ g++ -csslist.cpp
+0;gamez003@empress:~/cs/cs311/hw/hw3p3[gamez003@empress hw3p3]$ g++ -c slist.cpKllist.cpp
+0;gamez003@empress:~/cs/cs311/hw/hw3p3[gamez003@empress hw3p3]$ g++ llist.o slist.o client.cpp -o hw3p3
+0;gamez003@empress:~/cs/cs311/hw/hw3p3[gamez003@empress hw3p3]$ ./hw3p3
+Calling the llist destructor.
+Displaying in copyTest()
+[ 1 2 3 4 5 6 ]
+Calling the llist destructor.
+Displaying L1:
+[ 1 2 3 4 5 ]
+Displaying L1:
+[ 1 2 3 4 5 ]
+Calling the llist destructor.
+Displaying L2:
+[ 7 8 9 10 ]
+Displaying L2:
+[ 1 2 3 4 5 ]
+Displaying L1:
+[ 1 2 3 4 ]
+Displaying L1:
+[ 1 2 3 4 ]
+Displaying L2:
+[ 1 2 3 4 5 ]
+Calling the llist destructor.
+Calling the llist destructor.
+0;gamez003@empress:~/cs/cs311/hw/hw3p3[gamez003@empress hw3p3]$ exit
+
+Script done on Mon 20 Oct 2014 10:34:11 PM PDT

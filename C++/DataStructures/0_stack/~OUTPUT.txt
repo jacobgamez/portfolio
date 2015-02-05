@@ -1,0 +1,36 @@
+Script started on Wed 17 Sep 2014 07:51:41 AM PDT
+bash-3.2$ g++ -c StKstack.cpp
+bash-3.2$ g++ stack.cppKo client1.cpp -o stack
+bash-3.2$ ./stacKk
+type a postfix expression: 34+
+Solution: 7
+bash-3.2$ ./stack
+type a postfix expression: 345+*
+Solution: 27
+bash-3.2$ ./stack
+type a postfix expression: 722+-
+Solution: 3
+bash-3.2$ ./stack
+type a postfix expression: 34+56++
+Solution: 18
+bash-3.2$ ./stack
+type a postfix expression: 12+34*45+-+
+Solution: 6
+bash-3.2$ ./stack
+type a postfix expression: 1234567891234
+Incomplete Expression
+bash-3.2$ ./stack
+type a postfix expression: +
+STACK UNDERFLOW: Not enough operands for operators
+bash-3.2$ ./stack
+type a postfix expression: 3+
+STACK UNDERFLOW: Not enough operands for operators
+bash-3.2$ ./stack
+type a postfix expression: 3#
+You entered an unsupported symbol
+bash-3.2$ ./stack
+type a postfix expression: 2345+
+Incomplete Expression
+bash-3.2$ exit
+
+Script done on Wed 17 Sep 2014 07:53:59 AM PDT

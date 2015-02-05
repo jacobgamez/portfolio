@@ -1,0 +1,35 @@
+Script started on Sat 27 Sep 2014 08:00:37 PM PDT
+bash-3.2$ g++ combine.cpp -o combine
+bash-3.2$ ./combine
+Please enter 3 integers in ascending order:
+1: 1
+2: 2
+3: 3
+Please enter 3 more integers in ascending order:
+1: 4
+2: 5
+3: 6
+Result: 1 2 3 4 5 6
+bash-3.2$ ./combine
+Please enter 3 integers in ascending order:
+1: 1
+2: 3
+3: 5
+Please enter 3 more integers in ascending order:
+1: 2
+2: 4
+3: 6
+Result: 1 2 3 4 5 6
+bash-3.2$ ./combine
+Please enter 3 integers in ascending order:
+1: 4
+2: 5
+3: 6
+Please enter 3 more integers in ascending order:
+1: 1
+2: 2
+3: 3
+Result: 1 2 3 4 5 6
+bash-3.2$ exit
+
+Script done on Sat 27 Sep 2014 08:02:08 PM PDT

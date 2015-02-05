@@ -1,0 +1,117 @@
+Script started on Tue 25 Nov 2014 11:57:46 AM PST
+
+//Here with my llist.cpp
+
+0;gamez003@empress:~/cs/cs311/hw/hw7p2[gamez003@empress hw7p2]$ g++ client.C dgraph.C llist.cpp stack.cpp slist.cpp -o hw7
+0;gamez003@empress:~/cs/cs311/hw/hw7p2[gamez003@empress hw7p2]$ ./hw7
+Graph:
+Vertex: A
+Out Degree: 2
+Adjacent List: [ B F ]
+
+Vertex: B
+Out Degree: 2
+Adjacent List: [ C G ]
+
+Vertex: C
+Out Degree: 1
+Adjacent List: [ H ]
+
+Vertex: E
+Out Degree: 0
+Adjacent List: [empty]
+
+Vertex: F
+Out Degree: 2
+Adjacent List: [ I E ]
+
+Vertex: G
+Out Degree: 0
+Adjacent List: [empty]
+
+Vertex: H
+Out Degree: 2
+Adjacent List: [ G I ]
+
+Vertex: I
+Out Degree: 3
+Adjacent List: [ A G E ]
+
+Calling the llist destructor.
+
+ Popped : A from Stack
+Adding ...
+[empty]
+terminate called after throwing an instance of 'llist::Underflow'
+Aborted
+
+// Here with Sensei's llist.o
+
+
+0;gamez003@empress:~/cs/cs311/hw/hw7p2[gamez003@empress hw7p2]$ g++wclient.C dgraph.CCCCCCCCCC111P1@o.cpp slist.cpp -o hw7
+0;gamez003@empress:~/cs/cs311/hw/hw7p2[gamez003@empress hw7p2]$ ./hw7
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+....in the llist constructor
+Graph:
+Vertex: A
+Out Degree: 2
+Adjacent List: [B F ]
+
+Vertex: B
+Out Degree: 2
+Adjacent List: [C G ]
+
+Vertex: C
+Out Degree: 1
+Adjacent List: [H ]
+
+Vertex: E
+Out Degree: 0
+Adjacent List: [empty]
+
+Vertex: F
+Out Degree: 2
+Adjacent List: [I E ]
+
+Vertex: G
+Out Degree: 0
+Adjacent List: [empty]
+
+Vertex: H
+Out Degree: 2
+Adjacent List: [G I ]
+
+Vertex: I
+Out Degree: 3
+Adjacent List: [A G E ]
+
+....in the llist constructor
+....in the llist destructor
+
+ Popped : A from Stack
+Adding ...
+[empty]
+terminate called after throwing an instance of 'llist::Underflow'
+Aborted
+0;gamez003@empress:~/cs/cs311/hw/hw7p2[gamez003@empress hw7p2]$ exit
+
+Script done on Tue 25 Nov 2014 12:00:38 PM PST

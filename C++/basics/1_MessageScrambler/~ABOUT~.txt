@@ -1,0 +1,13 @@
+The purpose of this program is to encrypt/decrypt messages via 2 methods:
+-Rotation (rotates the alphabet e.g. [rot. 2] A=C, B=D, C=E, etc.)
+-Cryptogram (Random string of alphabet works as "key")
+
+This program demonstrates basic class design and implementation, as well as filestreams.
+
+
+-The source file should be called "original.txt"                                                         
+-Any encrypted file generated will be called "encrypted.txt"                                             
+-The key for encryption via cryptogram should be placed in a file called "key.txt"
+-->Please be sure that the source file does not contain spaces or indentations after the final character 
+   of the message                                                                                        
+-->Please be sure that the "key.txt" file does not contain any spaces. 
