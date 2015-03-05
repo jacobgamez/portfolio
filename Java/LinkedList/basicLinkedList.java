@@ -1,5 +1,5 @@
 //An example of a basic linked list in Java
-//A basic sample to demonstrate concept
+//A basic sample to demonstrate concept; not a complete program yet
 
 class LL
 {
